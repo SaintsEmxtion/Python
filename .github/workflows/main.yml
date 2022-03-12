@@ -1,0 +1,19 @@
+name: Test py
+
+on:
+  push:
+    branches: 
+      - main
+jobs:
+  my_test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Install python
+      run: apt install python3* -y
+      
+    - name: Git clone
+      run: actions/checkout@v1
+      
+    - name: Python
+      run: ./test.py
