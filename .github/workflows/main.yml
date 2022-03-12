@@ -9,9 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Install python
-      run: apt install python3* -y
-      
+    
     - name: Git clone
       run: actions/checkout@v1
       
