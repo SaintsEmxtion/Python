@@ -14,6 +14,9 @@ jobs:
       
     - name: Git clone
       uses: actions/checkout@v1
+    
+    - name: Chmod
+      run: chmod a+x ./test.py
       
     - name: Python
-      run: ./test.py
+      run: sudo ./test.py
