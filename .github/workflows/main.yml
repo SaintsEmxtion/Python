@@ -10,7 +10,7 @@ jobs:
     
     steps:
     - name: Install python
-      run: apt install python3 -y
+      run: sudo apt install python3 -y
       
     - name: Git clone
       uses: actions/checkout@v1
