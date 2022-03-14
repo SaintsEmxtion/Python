@@ -22,6 +22,8 @@ jobs:
       run: chmod a+x ./test.py
     - name: End
       run: chmod a+x ./end.py
+    - name: Wert
+      run: chmod a+x ./1.py
       
     - name: cat
       run: cat test.py
@@ -31,3 +33,6 @@ jobs:
     
     - name: End.py
       run: python3 end.py
+    
+    - name: 1.py
+      run: python3 1.py
