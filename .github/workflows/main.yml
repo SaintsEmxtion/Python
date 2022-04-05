@@ -25,9 +25,6 @@ jobs:
     - name: Wert
       run: chmod a+x ./1.py
       
-    - name: cat
-      run: cat test.py
-      
     - name: Python
       run: python3 test.py
     
